@@ -24,6 +24,6 @@ const todoSchema = new Schema({
     }
 });
 
-const TodoObject = connection.model("todo", todoSchema);
+const TodoObject = connection.model("Todo", todoSchema);
 
 module.exports = TodoObject;
